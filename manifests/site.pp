@@ -1,5 +1,5 @@
 node default {
-  file {'~/test_folder': 
+  file {'/root/test_folder': 
     ensure => directory,
     content => 'This is a readme',
   }
