@@ -4,7 +4,7 @@ node default {
     content => 'This is a test folder',
   }
   
-  file {'/root/README': 
-    content => 'This is a readme',
+  file {'/root/test.txt': 
+    content => 'This is a text file',
   }
 }
