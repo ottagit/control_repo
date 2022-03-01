@@ -11,5 +11,7 @@ node default {
 
   file {'/root/README': 
     content => 'This is a readme',
+  file {'/root/test.txt': 
+    content => 'This is a text file',
   }
 }
