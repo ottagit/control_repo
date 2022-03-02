@@ -15,3 +15,7 @@ node default {
     content => 'This is a text file',
   }
 }
+
+node 'master.puppet.vm' {
+  include role::master_server
+}
